@@ -1,0 +1,13 @@
+ body{
+    text-align: center;
+     background: linear-gradient(green,#fff,red);
+ }
+ img{
+    margin: 0 auto;
+ }
+ .linear{
+    width: 30px;
+    height: 5px;
+    background-color: aqua;
+    margin: 10px auto;
+ }

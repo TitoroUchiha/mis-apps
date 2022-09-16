@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mis Apps</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section id="Apps">
+        <h1>Mis apps</h1>
+        <div class="linear"></div>
+        <iframe width="440" height="757" style="border: 0px;"
+            src="https://studio.code.org/projects/gamelab/3Fkc-4-MeZDuBcz_eDvIdYQIUOovVDBn1FBc7RXQJq0/embed"></iframe>
+        <iframe width="392" height="620" style="border: 0px;"
+            src="https://studio.code.org/projects/applab/x8mWrKWxWIdkzzhyy89sqDHLsRF96qAwIB29oilYYhg/embed"></iframe>
+    </section>
+    <section>
+        <h1>Mis juegos</h1>
+        <div class="linear"></div>
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="item active">
+                    <a target="_blank"
+                        href="https://studio.code.org/projects/spritelab/xCiZ6hndXcceRrYvLRW0kAqQ0O_9hPKYHyXo9Hxqgas"><img
+                            src="juego1drones.png" alt=""></a>
+                </div>
+                <div class="item">
+                    <a target="_blank"
+                        href="https://studio.code.org/projects/gamelab/L1Kq4uyOTCIZnkXhPzc4r43wwMnDBeEN7ONMRmL6sDw"><img
+                            src="Hacer cafe.png" alt=""></a>
+                </div>
+            </div>
+            <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </section>
+    <section>
+        <h1>Mi chatbot</h1>
+        <div class="linear"></div>
+        <iframe allow="microphone;" width="350" height="430"
+            src="https://console.dialogflow.com/api-client/demo/embedded/617af744-4aeb-42c5-a12d-37533daaebb9">
+        </iframe>
+        <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+        <df-messenger intent="WELCOME" chat-title="Crítico_de_Comida" agent-id="67b26c7b-ee47-42d6-8dad-adf8021a2317"
+            language-code="en"></df-messenger>
+    </section>
+</body>
+
+</html>
